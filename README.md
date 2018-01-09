@@ -1,5 +1,6 @@
 ## Prerequisite
-td-agent 0.12.35
+* td-agent 0.12.35
+* Ruby 2.1
 
 ## Reference
 * [Writing plugins - Filter Plugins](https://docs.fluentd.org/v0.12/articles/plugin-development)
