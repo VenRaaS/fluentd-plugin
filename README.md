@@ -6,6 +6,7 @@
 * fluent-plugin-google-cloud-storage-out (0.1.12)
 
 ## Reference
+* [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
 * [Plugin Management - td-agent-gem](https://docs.fluentd.org/v0.12/articles/plugin-management)
 * [Writing plugins - Filter Plugins](https://docs.fluentd.org/v0.12/articles/plugin-development)
 * [fluent-plugin-docker](https://github.com/edsiper/fluent-plugin-docker/blob/master/lib/fluent/plugin/filter_docker.rb)
