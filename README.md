@@ -1,4 +1,6 @@
 ## fluentd-plugin
+td-agent 0.12.35
+
 ## Reference
 * [Writing plugins - Filter Plugins](https://docs.fluentd.org/v0.12/articles/plugin-development)
 * [fluent-plugin-docker](https://github.com/edsiper/fluent-plugin-docker/blob/master/lib/fluent/plugin/filter_docker.rb)
