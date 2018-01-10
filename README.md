@@ -1,4 +1,4 @@
-## [Fluentd](http://www.fluentd.org/) Overview
+## [Overview](http://www.fluentd.org/)
 
 ## Prerequisite
 * td-agent 0.12.35
