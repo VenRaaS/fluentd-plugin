@@ -59,12 +59,12 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 #### [Buffer Plugin](http://docs.fluentd.org/v0.12/articles/buffer-plugin-overview)
 * [Buffered Output Parameters](http://docs.fluentd.org/v0.12/articles/output-plugin-overview#buffered-output-parameters)
 
-##### [copy Output Plugin](http://docs.fluentd.org/v0.12/articles/out_copy)
+* [copy Output Plugin](http://docs.fluentd.org/v0.12/articles/out_copy)
 
-##### [fluent-plugin-copy_ex](https://github.com/sonots/fluent-plugin-copy_ex)
+* [fluent-plugin-copy_ex](https://github.com/sonots/fluent-plugin-copy_ex)
 
-### Local File to BigQuery - [BigQuery Output Plugin](https://github.com/kaizenplatform/fluent-plugin-bigquery)
-#### Installation
+* [BigQuery Output Plugin](https://github.com/kaizenplatform/fluent-plugin-bigquery) - local file to BigQuery
+  * Installation
 ```
 td-agent-gem install fluent-plugin-bigquery
 ```
