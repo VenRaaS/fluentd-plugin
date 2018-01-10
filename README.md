@@ -38,13 +38,15 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 `/var/log/td-agent/td-agent.log`
 
 ### [Configuration](https://docs.fluentd.org/v0.12/articles/config-file)
+
+#### [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
+
 #### [Parser Plugin](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview)
 Customer defined the field keys of the event record. Check [Here](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview#list-of-built-in-parsers) for Built-in Parsers.
 
 ##### regexp - regexp for the format field
 * [Fluentular](http://fluentular.herokuapp.com/)
-* If the parameter value starts and ends with “/”, it is considered to be a regexp.
-TODO...
+* If the parameter value starts and ends with “/”, it is considered to be a regexp, e.g.
 ```
 format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 ```
@@ -80,7 +82,6 @@ td-agent-gem install fluent-plugin-google-cloud-storage-out
 ```
 
 ## Reference
-* [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
 * [Plugin Management - td-agent-gem](https://docs.fluentd.org/v0.12/articles/plugin-management)
 * [Writing plugins - Filter Plugins](https://docs.fluentd.org/v0.12/articles/plugin-development)
 * [fluent-plugin-docker](https://github.com/edsiper/fluent-plugin-docker/blob/master/lib/fluent/plugin/filter_docker.rb)
