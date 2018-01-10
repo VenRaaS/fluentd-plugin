@@ -47,14 +47,13 @@ Customer defined the field keys of the event record.
 See [Built-in Parsers](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview#list-of-built-in-parsers).
 
 * [regexp](https://docs.fluentd.org/v0.12/articles/parser_regexp) - regexp for the format field
- * [Fluentular](http://fluentular.herokuapp.com/)
- * If the parameter value starts and ends with “/”, it is considered to be a regexp, e.g.
- ```
+  * [Fluentular](http://fluentular.herokuapp.com/)
+  * If the parameter value starts and ends with “/”, it is considered to be a regexp, e.g.
+  ```
 format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 ```
-
-##### none
-* This will parse the line as-is with the key name “message”.
+* [none](https://docs.fluentd.org/v0.12/articles/parser_none)
+  * This will parse the line as-is with the key name “message”.
 
 #### [Buffer Plugin](http://docs.fluentd.org/v0.12/articles/buffer-plugin-overview)
 * [Buffered Output Parameters](http://docs.fluentd.org/v0.12/articles/output-plugin-overview#buffered-output-parameters)
