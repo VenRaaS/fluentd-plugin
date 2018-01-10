@@ -43,9 +43,10 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 
 ### Plugins
 #### [Parser Plugin](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview)
-Customer defined the field keys of the event record. Check [Here](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview#list-of-built-in-parsers) for Built-in Parsers.
+Customer defined the field keys of the event record.  
+See [Built-in Parsers](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview#list-of-built-in-parsers).
 
-##### regexp - regexp for the format field
+##### [regexp](https://docs.fluentd.org/v0.12/articles/parser_regexp) - regexp for the format field
 * [Fluentular](http://fluentular.herokuapp.com/)
 * If the parameter value starts and ends with “/”, it is considered to be a regexp, e.g.
 ```
