@@ -59,6 +59,8 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 #### [Buffer Plugin](http://docs.fluentd.org/v0.12/articles/buffer-plugin-overview)
 * [Buffered Output Parameters](http://docs.fluentd.org/v0.12/articles/output-plugin-overview#buffered-output-parameters)
 
+#### [Output Plugin](https://docs.fluentd.org/v0.12/articles/output-plugin-overview#overview)
+
 * [copy Output Plugin](http://docs.fluentd.org/v0.12/articles/out_copy)
 
 * [fluent-plugin-copy_ex](https://github.com/sonots/fluent-plugin-copy_ex)
