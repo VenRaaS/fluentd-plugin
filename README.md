@@ -76,8 +76,9 @@ td-agent-gem install fluent-plugin-bigquery
 
 * [Bigquery Quota Policy](https://cloud.google.com/bigquery/quota-policy#streaminginserts)
 
-### Local File to Google Storage - [Google Cloud Storage Out](https://github.com/matsuokah/fluent-plugin-google-cloud-storage-out)
-#### Installation
+* [Google Cloud Storage Out](https://github.com/matsuokah/fluent-plugin-google-cloud-storage-out) - local file to google cloud storage
+
+  * Installation
 ```
 td-agent-gem install fluent-plugin-google-cloud-storage-out
 ```
