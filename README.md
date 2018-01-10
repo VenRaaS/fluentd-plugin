@@ -41,6 +41,7 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 
 #### [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
 
+### Plugins
 #### [Parser Plugin](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview)
 Customer defined the field keys of the event record. Check [Here](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview#list-of-built-in-parsers) for Built-in Parsers.
 
@@ -54,7 +55,6 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 ##### none
 * This will parse the line as-is with the key name “message”.
 
-## Plugins
 ### [Buffer Plugin](http://docs.fluentd.org/v0.12/articles/buffer-plugin-overview)
 * [Buffered Output Parameters](http://docs.fluentd.org/v0.12/articles/output-plugin-overview#buffered-output-parameters)
 
