@@ -1,4 +1,5 @@
 ## [Overview](https://docs.fluentd.org/v1.0/articles/quickstart)
+![](https://drive.google.com/uc?id=1jYL61DTptrXzso7g7KgT1udDF0MtOgZT)
 
 ## Prerequisite
 * td-agent 0.12.35
