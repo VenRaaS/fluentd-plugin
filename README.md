@@ -1,4 +1,6 @@
 ## [Overview](https://docs.fluentd.org/v1.0/articles/quickstart)
+In Venraas, we use [td-agent](https://www.fluentd.org/faqs) to sync the streamming log from file into [BigQuery](https://cloud.google.com/bigquery/) for further analysis.
+
 ![](https://drive.google.com/uc?id=1jYL61DTptrXzso7g7KgT1udDF0MtOgZT)
 
 ## Prerequisite
