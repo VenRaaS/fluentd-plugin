@@ -65,12 +65,10 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 * [fluent-plugin-copy_ex](https://github.com/sonots/fluent-plugin-copy_ex)
 
 * [Google Cloud Storage Out](https://github.com/matsuokah/fluent-plugin-google-cloud-storage-out) - local file to google cloud storage
-  * Installation `td-agent-gem install fluent-plugin-google-cloud-storage-out`
+  * installation `td-agent-gem install fluent-plugin-google-cloud-storage-out`
   
 * [BigQuery Output Plugin](https://github.com/kaizenplatform/fluent-plugin-bigquery) - local file to BigQuery
-  * Installation `td-agent-gem install fluent-plugin-bigquery`
-  * Configuration
-    * [Generates credential](https://cloud.google.com/solutions/real-time/fluentd-bigquery#docker-container-contents-and-usage-outside-of-compute-engine)    
+  * installation `td-agent-gem install fluent-plugin-bigquery`
   * [Bigquery Quota Policy](https://cloud.google.com/bigquery/quota-policy#streaminginserts)
 
 ## Reference
