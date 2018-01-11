@@ -42,6 +42,9 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 ### [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
 
 ### Plugins
+#### [Input Plugin](https://docs.fluentd.org/v0.12/articles/input-plugin-overview)
+* [tail](https://docs.fluentd.org/v0.12/articles/in_tail)
+
 #### [Parser Plugin](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview)
 Customer defined the field keys of the event record.  
 See [Built-in Parsers](http://docs.fluentd.org/v0.12/articles/parser-plugin-overview#list-of-built-in-parsers).
