@@ -70,9 +70,7 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 * [BigQuery Output Plugin](https://github.com/kaizenplatform/fluent-plugin-bigquery) - local file to BigQuery
   * Installation `td-agent-gem install fluent-plugin-bigquery`
   * Configuration
-    * [Generates credential](https://cloud.google.com/solutions/real-time/fluentd-bigquery#docker-container-contents-and-usage-outside-of-compute-engine)
-##### td-agent.conf
-
+    * [Generates credential](https://cloud.google.com/solutions/real-time/fluentd-bigquery#docker-container-contents-and-usage-outside-of-compute-engine)    
   * [Bigquery Quota Policy](https://cloud.google.com/bigquery/quota-policy#streaminginserts)
 
 ## Reference
