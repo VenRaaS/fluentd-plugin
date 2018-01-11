@@ -64,25 +64,16 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 
 * [fluent-plugin-copy_ex](https://github.com/sonots/fluent-plugin-copy_ex)
 
+* [Google Cloud Storage Out](https://github.com/matsuokah/fluent-plugin-google-cloud-storage-out) - local file to google cloud storage
+  * Installation `td-agent-gem install fluent-plugin-google-cloud-storage-out`
+  
 * [BigQuery Output Plugin](https://github.com/kaizenplatform/fluent-plugin-bigquery) - local file to BigQuery
-  * Installation
-```
-td-agent-gem install fluent-plugin-bigquery
-```
-
-#### Configuration
-##### [Generates credential](https://cloud.google.com/solutions/real-time/fluentd-bigquery#docker-container-contents-and-usage-outside-of-compute-engine)
-
+  * Installation `td-agent-gem install fluent-plugin-bigquery`
+  * Configuration
+    * [Generates credential](https://cloud.google.com/solutions/real-time/fluentd-bigquery#docker-container-contents-and-usage-outside-of-compute-engine)
 ##### td-agent.conf
 
-* [Bigquery Quota Policy](https://cloud.google.com/bigquery/quota-policy#streaminginserts)
-
-* [Google Cloud Storage Out](https://github.com/matsuokah/fluent-plugin-google-cloud-storage-out) - local file to google cloud storage
-
-  * Installation
-```
-td-agent-gem install fluent-plugin-google-cloud-storage-out
-```
+  * [Bigquery Quota Policy](https://cloud.google.com/bigquery/quota-policy#streaminginserts)
 
 ## Reference
 * [Plugin Management - td-agent-gem](https://docs.fluentd.org/v0.12/articles/plugin-management)
