@@ -8,7 +8,9 @@ require 'fluent/plugin'
 module Fluent
   class FilterWeblog < Filter
     Plugin.register_filter('filter_weblog', self)
-
+    
+    #-- config_param is a helper which defines plugin input parameter
+    #   see https://docs.fluentd.org/v0.12/articles/plugin-development#config_param
     config_param :key_name, :string
 
     def initialize
