@@ -31,10 +31,13 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 ### Locations
 * Main execution file
 `/usr/sbin/td-agent`
+
 * Configuration file
 `/etc/td-agent/td-agent.conf`
+
 * Plugin install command
-`/usr/sbin/td-agent-gem install fluent-plugin-${PluginName}`
+`/usr/sbin/td-agent-gem install fluent-plugin-${PluginName} -v ${Version}`
+
 * Plugin uninstall command
 `/usr/sbin/td-agent-gem uninstall fluent-plugin-${PluginName}`
 * Logs
