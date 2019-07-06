@@ -43,7 +43,7 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 * Logs
 `/var/log/td-agent/td-agent.log`
 
-## [Configuration](https://docs.fluentd.org/v0.12/articles/config-file)
+## [Configuration](https://docs.fluentd.org/v/0.12/configuration/config-file)
 
 ### [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
 
