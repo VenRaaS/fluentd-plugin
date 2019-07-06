@@ -82,7 +82,7 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
 
 ## Reference
 * [Buffer Plugin Overview](https://docs.fluentd.org/v/0.12/output)
-* [Plugin Management - td-agent-gem](https://docs.fluentd.org/v0.12/articles/plugin-management)
+* [Plugin Management - td-agent-gem](https://docs.fluentd.org/v/0.12/deployment/plugin-management)
 * [Writing plugins - Filter Plugins](https://docs.fluentd.org/v0.12/articles/plugin-development)
 * [fluent-plugin-docker](https://github.com/edsiper/fluent-plugin-docker/blob/master/lib/fluent/plugin/filter_docker.rb)
 * [rubydoc Module: Oj](http://www.rubydoc.info/github/ohler55/oj/Oj#load-class_method)
