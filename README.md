@@ -81,6 +81,7 @@ format /^(?<logdt>[^|]*)\|(?<loglevel>[^|]*)\|(?<logbody>.*)$/`
   * [Bigquery Quota Policy](https://cloud.google.com/bigquery/quota-policy#streaminginserts)
 
 ## Reference
+* [Life of an Fluentd event](https://www.slideshare.net/tamuraaa/life-of-an-fluentd-event)
 * [Buffer Plugin Overview](https://docs.fluentd.org/v/0.12/output)
 * [Plugin Management - td-agent-gem](https://docs.fluentd.org/v/0.12/deployment/plugin-management)
 * [Writing plugins - Filter Plugins](https://docs.fluentd.org/v0.12/articles/plugin-development)
