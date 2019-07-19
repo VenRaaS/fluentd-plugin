@@ -44,9 +44,10 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 `/var/log/td-agent/td-agent.log`
 
 ## [Configuration](https://docs.fluentd.org/v/0.12/configuration)
-### [Life of an Fluentd event](https://www.slideshare.net/tamuraaa/life-of-an-fluentd-event)
-### [List of Directives](https://docs.fluentd.org/v/0.12/configuration/config-file#list-of-directives)
-#### [How tag match patterns work](https://docs.fluentd.org/v/0.12/configuration/config-file#how-match-patterns-work)
+### [Config File Syntax](https://docs.fluentd.org/v/0.12/configuration/config-file)
+* [Life of an Fluentd event](https://www.slideshare.net/tamuraaa/life-of-an-fluentd-event)
+* [List of Directives](https://docs.fluentd.org/v/0.12/configuration/config-file#list-of-directives)
+* [How tag match patterns work](https://docs.fluentd.org/v/0.12/configuration/config-file#how-match-patterns-work)
 
 ### Plugins
 #### [Input Plugin](https://docs.fluentd.org/v0.12/articles/input-plugin-overview)
