@@ -47,6 +47,7 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 ## [Configuration](https://docs.fluentd.org/v/0.12/configuration)
 
 ### [Concept](https://docs.fluentd.org/v0.12/articles/config-file#list-of-directives)
+#### [How tag match patterns work](https://docs.fluentd.org/v/0.12/configuration/config-file#how-match-patterns-work)
 
 ### Plugins
 #### [Input Plugin](https://docs.fluentd.org/v0.12/articles/input-plugin-overview)
